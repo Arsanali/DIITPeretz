@@ -7,3 +7,21 @@
 //
 
 import Foundation
+//MARK: - MainView
+protocol MainViewPresenter: class {
+  
+}
+//MARK: - MainPresenter
+protocol MainPresenterProtocol: class {
+  var view: MainViewPresenter { get }
+
+}
+
+class MainPresenter: MainPresenterProtocol {
+  var view: MainViewPresenter
+  
+  init(view: MainViewPresenter) {
+    self.view = view
+  }
+}
+
