@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BE0C288DA69FA46042CCC28 /* Pods_DIITPeretz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB504ABD5305C980E7DA2498 /* Pods_DIITPeretz.framework */; };
 		CE3E369725028155001A77A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E369625028155001A77A1 /* AppDelegate.swift */; };
 		CE3E369925028155001A77A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E369825028155001A77A1 /* SceneDelegate.swift */; };
 		CE3E369B25028155001A77A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E369A25028155001A77A1 /* ViewController.swift */; };
@@ -14,9 +15,18 @@
 		CE3E36A025028159001A77A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3E369F25028159001A77A1 /* Assets.xcassets */; };
 		CE3E36A325028159001A77A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3E36A125028159001A77A1 /* LaunchScreen.storyboard */; };
 		CE3E36AF2502852F001A77A1 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E36AE2502852F001A77A1 /* MainPresenter.swift */; };
+		CE3E36B52502905B001A77A1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E36B42502905B001A77A1 /* SecondViewController.swift */; };
+		CE3E36B725029068001A77A1 /* SecondModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3E36B625029068001A77A1 /* SecondModule.storyboard */; };
+		CE3E36BB25029085001A77A1 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E36BA25029085001A77A1 /* ProductModel.swift */; };
+		CE3E36BF2503AAA9001A77A1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E36BE2503AAA9001A77A1 /* NetworkManager.swift */; };
+		CE3E36C12503DF31001A77A1 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E36C02503DF31001A77A1 /* ProductCell.swift */; };
+		CEB27E3725091C060007D415 /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB27E3625091C060007D415 /* Alertable.swift */; };
+		CEB27E3925091D9D0007D415 /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB27E3825091D9D0007D415 /* AlertModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B2C1F250C7CB440B34BF8992 /* Pods-DIITPeretz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIITPeretz.debug.xcconfig"; path = "Target Support Files/Pods-DIITPeretz/Pods-DIITPeretz.debug.xcconfig"; sourceTree = "<group>"; };
+		CB504ABD5305C980E7DA2498 /* Pods_DIITPeretz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DIITPeretz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3E369325028155001A77A1 /* DIITPeretz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DIITPeretz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3E369625028155001A77A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE3E369825028155001A77A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +36,14 @@
 		CE3E36A225028159001A77A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE3E36A425028159001A77A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE3E36AE2502852F001A77A1 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		CE3E36B42502905B001A77A1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CE3E36B625029068001A77A1 /* SecondModule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondModule.storyboard; sourceTree = "<group>"; };
+		CE3E36BA25029085001A77A1 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		CE3E36BE2503AAA9001A77A1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CE3E36C02503DF31001A77A1 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		CEB27E3625091C060007D415 /* Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
+		CEB27E3825091D9D0007D415 /* AlertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertModel.swift; sourceTree = "<group>"; };
+		EFCB240E1A51D12848DBCE36 /* Pods-DIITPeretz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIITPeretz.release.xcconfig"; path = "Target Support Files/Pods-DIITPeretz/Pods-DIITPeretz.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BE0C288DA69FA46042CCC28 /* Pods_DIITPeretz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A80FD897C01F992974317C83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB504ABD5305C980E7DA2498 /* Pods_DIITPeretz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE3E368A25028155001A77A1 = {
 			isa = PBXGroup;
 			children = (
 				CE3E369525028155001A77A1 /* DIITPeretz */,
 				CE3E369425028155001A77A1 /* Products */,
+				D6088CB24AC3F643C18B8FB8 /* Pods */,
+				A80FD897C01F992974317C83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +89,13 @@
 			children = (
 				CE3E369625028155001A77A1 /* AppDelegate.swift */,
 				CE3E369825028155001A77A1 /* SceneDelegate.swift */,
-				CE3E36AA250284E4001A77A1 /* MainModule */,
+				CE3E36BD2503AA92001A77A1 /* NetworkManager */,
+				CE3E36BC2502908E001A77A1 /* Modules */,
 				CE3E369F25028159001A77A1 /* Assets.xcassets */,
 				CE3E36A125028159001A77A1 /* LaunchScreen.storyboard */,
 				CE3E36A425028159001A77A1 /* Info.plist */,
+				CEB27E3825091D9D0007D415 /* AlertModel.swift */,
+				CEB27E3625091C060007D415 /* Alertable.swift */,
 			);
 			path = DIITPeretz;
 			sourceTree = "<group>";
@@ -94,6 +126,59 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
+		CE3E36B02502901F001A77A1 /* SecondModule */ = {
+			isa = PBXGroup;
+			children = (
+				CE3E36B32502903A001A77A1 /* Model */,
+				CE3E36B12502902E001A77A1 /* View */,
+			);
+			path = SecondModule;
+			sourceTree = "<group>";
+		};
+		CE3E36B12502902E001A77A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE3E36B42502905B001A77A1 /* SecondViewController.swift */,
+				CE3E36C02503DF31001A77A1 /* ProductCell.swift */,
+				CE3E36B625029068001A77A1 /* SecondModule.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE3E36B32502903A001A77A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE3E36BA25029085001A77A1 /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE3E36BC2502908E001A77A1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CE3E36AA250284E4001A77A1 /* MainModule */,
+				CE3E36B02502901F001A77A1 /* SecondModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CE3E36BD2503AA92001A77A1 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				CE3E36BE2503AAA9001A77A1 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		D6088CB24AC3F643C18B8FB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2C1F250C7CB440B34BF8992 /* Pods-DIITPeretz.debug.xcconfig */,
+				EFCB240E1A51D12848DBCE36 /* Pods-DIITPeretz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -101,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE3E36A725028159001A77A1 /* Build configuration list for PBXNativeTarget "DIITPeretz" */;
 			buildPhases = (
+				06AB23CB552FEF165F7C62CF /* [CP] Check Pods Manifest.lock */,
 				CE3E368F25028155001A77A1 /* Sources */,
 				CE3E369025028155001A77A1 /* Frameworks */,
 				CE3E369125028155001A77A1 /* Resources */,
+				63E8669A1C1F0A98DE9E3466 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3E36B725029068001A77A1 /* SecondModule.storyboard in Resources */,
 				CE3E36A325028159001A77A1 /* LaunchScreen.storyboard in Resources */,
 				CE3E36A025028159001A77A1 /* Assets.xcassets in Resources */,
 				CE3E369E25028155001A77A1 /* Main.storyboard in Resources */,
@@ -160,14 +248,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06AB23CB552FEF165F7C62CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DIITPeretz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63E8669A1C1F0A98DE9E3466 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DIITPeretz/Pods-DIITPeretz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DIITPeretz/Pods-DIITPeretz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DIITPeretz/Pods-DIITPeretz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE3E368F25028155001A77A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3E36BF2503AAA9001A77A1 /* NetworkManager.swift in Sources */,
 				CE3E369B25028155001A77A1 /* ViewController.swift in Sources */,
 				CE3E369725028155001A77A1 /* AppDelegate.swift in Sources */,
+				CEB27E3725091C060007D415 /* Alertable.swift in Sources */,
 				CE3E369925028155001A77A1 /* SceneDelegate.swift in Sources */,
+				CE3E36B52502905B001A77A1 /* SecondViewController.swift in Sources */,
+				CE3E36C12503DF31001A77A1 /* ProductCell.swift in Sources */,
+				CE3E36BB25029085001A77A1 /* ProductModel.swift in Sources */,
+				CEB27E3925091D9D0007D415 /* AlertModel.swift in Sources */,
 				CE3E36AF2502852F001A77A1 /* MainPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +446,7 @@
 		};
 		CE3E36A825028159001A77A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2C1F250C7CB440B34BF8992 /* Pods-DIITPeretz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -328,6 +465,7 @@
 		};
 		CE3E36A925028159001A77A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFCB240E1A51D12848DBCE36 /* Pods-DIITPeretz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

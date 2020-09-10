@@ -1,0 +1,6 @@
+framework module Pods_DIITPeretz {
+  umbrella header "Pods-DIITPeretz-umbrella.h"
+
+  export *
+  module * { export * }
+}
